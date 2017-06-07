@@ -1,0 +1,80 @@
+代码规范
+
+一、版权
+
+/*
+ * *****************************************************************************
+ *  达飞金融，机密
+ *  __________________
+ * Copyright@2015-2016 DAFY CREDIT ALL Rights Reserved 达飞金融旗下品牌即有分期 版权所有
+ * 备案号：粤ICP备17014188号
+ *
+ * 注意：
+ * 	此处包含的所有信息均为深圳前海达飞金融服务有限公司的财产。知识和技术理念包含在内为深圳前
+ * 	海达飞金融服务有限公司所有，可能受中国和国际专利，以及商业秘密或版权法保护。严格禁止传播
+ * 	此信息或复制此材料，除非事先获得来自深圳前海达飞金融服务有限公司的书面许可。
+ */
+
+ 
+二、注释
+
+类注释：
+
+code template
+
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+/**
+ *  <br>${DESCRIPTION}</br>
+ *
+ * @author  ${USER}
+ * @email   lvyongwen@dafycredit.com
+ * @date    ${DATE} ${TIME}
+ * @version 1.0
+ * @since  1.0
+ */
+public class ${NAME} {
+	
+}
+
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+/**
+ *  <br>${DESCRIPTION}</br>
+ *
+ * @author  ${USER}
+ * @email   lvyongwen@dafycredit.com
+ * @date    ${DATE} ${TIME}
+ * @version 1.0
+ * @since  1.0
+ */
+public interface ${NAME} {
+	
+}
+
+
+live template:cc
+
+/**
+ * <br></br>
+ *
+ * @author  $author$
+ * @email   lvyongwen@dafycredit.com
+ * @date    $date$ $time$
+ * @version 1.0
+ * @since  1.0
+ */
+
+方法注释：
+live template:mc
+
+/**
+ * <br></br>
+ *
+ * @author    $author$
+ * @email     lvyongwen@dafycredit.com
+ * @date      $date$ $time$
+ * @version   1.0
+ * @since     1.0
+ * @param     $params$
+ * @return    $return$
+ * @exception $exception$
+ */
